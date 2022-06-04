@@ -24,7 +24,7 @@ export default {
 		const schema = Yup.object().shape({
 			name: Yup.string().required('O campo "name" é obrigatório.'),
 			cnpj: Yup.string(),
-			telephone: Yup.string().required('O campo "telefone" é obrigatório.'),
+			telephone: Yup.string().required('O campo "telephone" é obrigatório.'),
 			latitude: Yup.number().required('O campo "latitude" é obrigatório.'),
 			longitude: Yup.number().required('O campo "longitude" é obrigatório.'),
 			road: Yup.string(),//.required('O campo "Rua" é obrigatório.'),
