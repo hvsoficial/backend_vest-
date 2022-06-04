@@ -5,8 +5,9 @@ export default {
 		return {
 			id: adm.id,
 			name: adm.name,
-            email: adm.email,
-            senha: adm.senha
+			telephone: adm.telephone,
+			email: adm.email,
+			senha: adm.senha
 		}
 	},
 

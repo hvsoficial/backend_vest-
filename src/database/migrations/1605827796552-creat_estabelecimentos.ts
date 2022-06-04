@@ -1,4 +1,4 @@
-import {MigrationInterface, QueryRunner, Table} from "typeorm";
+import { MigrationInterface, QueryRunner, Table } from "typeorm";
 
 export class creatEstabelecimentos1605827796552 implements MigrationInterface {
 
@@ -19,7 +19,11 @@ export class creatEstabelecimentos1605827796552 implements MigrationInterface {
 					type: 'varchar'
 				},
 				{
-					name: 'telefone',
+					name: 'cnpj',
+					type: 'varchar'
+				},
+				{
+					name: 'telephone',
 					type: 'varchar'
 				},
 				{
@@ -33,6 +37,22 @@ export class creatEstabelecimentos1605827796552 implements MigrationInterface {
 					type: 'decimal',
 					scale: 10,
 					precision: 2
+				},
+				{
+					name: 'road',
+					type: 'varchar'
+				},
+				{
+					name: 'complement',
+					type: 'varchar'
+				},
+				{
+					name: 'number',
+					type: 'varchar'
+				},
+				{
+					name: 'cep',
+					type: 'varchar'
 				},
 				{
 					name: 'about',

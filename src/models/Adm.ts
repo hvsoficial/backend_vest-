@@ -2,16 +2,19 @@ import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm'
 
 @Entity('adms')
 export default class Adm {
-	@PrimaryGeneratedColumn('increment')
-	id: number
+    @PrimaryGeneratedColumn('increment')
+    id: number
 
-	@Column()
+    @Column()
     name: string
-    
+
+    @Column()
+    telephone: string
+
     @Column()
     email: string
-    
+
     @Column()
-	senha: string
+    senha: string
 
 }
